@@ -33,7 +33,7 @@ class Fur():
             furLayer = duplicate(entity)
             furLayer.shader = fur_shader
             furLayer.set_shader_input("noise_scale", scale)
-            furLayer.set_shader_input("mask_texture", load_texture("noise.png"))
+            furLayer.set_shader_input("mask_texture", load_texture("noise"))
             
             furLayer.parent = entity
             furLayer.scale = 1 + layer
